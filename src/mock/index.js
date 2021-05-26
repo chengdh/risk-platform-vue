@@ -7,6 +7,7 @@ import * as sysLog from './modules/sys-log'
 import * as sysMenu from './modules/sys-menu'
 import * as sysRole from './modules/sys-role'
 import * as sysUser from './modules/sys-user'
+import * as riskAssessFactor from './modules/riskAssess/enterpriseRiskAssessFactor'
 
 // tips
 // 1. 开启/关闭[业务模块]拦截, 通过调用fnCreate方法[isOpen参数]设置.
@@ -19,13 +20,14 @@ fnCreate(sysLog, true)
 fnCreate(sysMenu, true)
 fnCreate(sysRole, true)
 fnCreate(sysUser, true)
+fnCreate(riskAssessFactor, true)
 
 /**
  * 创建mock模拟数据
  * @param {*} mod 模块
  * @param {*} isOpen 是否开启?
  */
-function fnCreate (mod, isOpen = true) {
+function fnCreate(mod, isOpen = true) {
   if (isOpen) {
     for (var key in mod) {
       ((res) => {

@@ -499,6 +499,9 @@ var navDataList = [
   }
 ]
 
+import riskAssessMenuData from "./riskAssess/riskAssessMenu"
+navDataList.push(riskAssessMenuData)
+
 // 获取导航菜单列表 / 权限
 export function nav () {
   return {
