@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  web:
+    build:
+      context: .
+    volumes:
+      # This bind mount allows changes on the host file system to affect the container.
+      # Saving a code file can cause an incremental build, a hot reload in the browser,
+      # and a reconnection of the debugger.
+      # The mount is in delegated mode:
+      # Changes on the host, like saving a code file, immediately affect the container.
+      # Changes within the container, like build output, make their way back to the host,
+      # but are not strictly synchronized.
+      - .:/app:delegated
+      #- node_modules_nextjs:/app/node_modules
+    ports:
+      - 3040:3000
+      - 19229:9229
+    command: npm start 
