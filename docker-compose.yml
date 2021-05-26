@@ -15,6 +15,5 @@ services:
       - .:/app:delegated
       #- node_modules_nextjs:/app/node_modules
     ports:
-      - 3040:3000
-      - 19229:9229
+      - 9001:9001
     command: npm start 

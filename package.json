@@ -42,7 +42,6 @@
     "xlsx": "^0.13.2"
   },
   "devDependencies": {
-    "adm-zip": "0.5.5",
     "autoprefixer": "7.1.2",
     "babel-core": "6.22.1",
     "babel-eslint": "7.1.1",

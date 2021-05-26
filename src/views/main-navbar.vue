@@ -19,7 +19,7 @@
       <el-menu
         class="site-navbar__menu site-navbar__menu--left">
         <el-menu-item index="1" class="navTitle">
-          程潮矿业有限公司双重预防信息管理平台
+          双重预防信息管理平台
         </el-menu-item>
       </el-menu>
       <el-menu
@@ -332,7 +332,7 @@
 <style>
   .navTitle {
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: '微软雅黑';
     color: #1d75b4;
   }

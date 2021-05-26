@@ -1,7 +1,7 @@
 // 生成数据列表
 var dataList = [
   {
-    'menuId': 1,
+    'id': 1,
     'parentId': 0,
     'parentName': null,
     'name': '系统管理',
@@ -14,7 +14,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 2,
+    'id': 2,
     'parentId': 1,
     'parentName': '系统管理',
     'name': '管理员列表',
@@ -27,7 +27,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 3,
+    'id': 3,
     'parentId': 1,
     'parentName': '系统管理',
     'name': '角色管理',
@@ -40,7 +40,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 4,
+    'id': 4,
     'parentId': 1,
     'parentName': '系统管理',
     'name': '菜单管理',
@@ -53,7 +53,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 5,
+    'id': 5,
     'parentId': 1,
     'parentName': '系统管理',
     'name': 'SQL监控',
@@ -66,7 +66,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 6,
+    'id': 6,
     'parentId': 1,
     'parentName': '系统管理',
     'name': '定时任务',
@@ -79,7 +79,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 7,
+    'id': 7,
     'parentId': 6,
     'parentName': '定时任务',
     'name': '查看',
@@ -92,7 +92,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 8,
+    'id': 8,
     'parentId': 6,
     'parentName': '定时任务',
     'name': '新增',
@@ -105,7 +105,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 9,
+    'id': 9,
     'parentId': 6,
     'parentName': '定时任务',
     'name': '修改',
@@ -118,7 +118,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 10,
+    'id': 10,
     'parentId': 6,
     'parentName': '定时任务',
     'name': '删除',
@@ -131,7 +131,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 11,
+    'id': 11,
     'parentId': 6,
     'parentName': '定时任务',
     'name': '暂停',
@@ -144,7 +144,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 12,
+    'id': 12,
     'parentId': 6,
     'parentName': '定时任务',
     'name': '恢复',
@@ -157,7 +157,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 13,
+    'id': 13,
     'parentId': 6,
     'parentName': '定时任务',
     'name': '立即执行',
@@ -170,7 +170,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 14,
+    'id': 14,
     'parentId': 6,
     'parentName': '定时任务',
     'name': '日志列表',
@@ -183,7 +183,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 15,
+    'id': 15,
     'parentId': 2,
     'parentName': '管理员列表',
     'name': '查看',
@@ -196,7 +196,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 16,
+    'id': 16,
     'parentId': 2,
     'parentName': '管理员列表',
     'name': '新增',
@@ -209,7 +209,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 17,
+    'id': 17,
     'parentId': 2,
     'parentName': '管理员列表',
     'name': '修改',
@@ -222,7 +222,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 18,
+    'id': 18,
     'parentId': 2,
     'parentName': '管理员列表',
     'name': '删除',
@@ -235,7 +235,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 19,
+    'id': 19,
     'parentId': 3,
     'parentName': '角色管理',
     'name': '查看',
@@ -248,7 +248,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 20,
+    'id': 20,
     'parentId': 3,
     'parentName': '角色管理',
     'name': '新增',
@@ -261,7 +261,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 21,
+    'id': 21,
     'parentId': 3,
     'parentName': '角色管理',
     'name': '修改',
@@ -274,7 +274,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 22,
+    'id': 22,
     'parentId': 3,
     'parentName': '角色管理',
     'name': '删除',
@@ -287,7 +287,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 23,
+    'id': 23,
     'parentId': 4,
     'parentName': '菜单管理',
     'name': '查看',
@@ -300,7 +300,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 24,
+    'id': 24,
     'parentId': 4,
     'parentName': '菜单管理',
     'name': '新增',
@@ -313,7 +313,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 25,
+    'id': 25,
     'parentId': 4,
     'parentName': '菜单管理',
     'name': '修改',
@@ -326,7 +326,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 26,
+    'id': 26,
     'parentId': 4,
     'parentName': '菜单管理',
     'name': '删除',
@@ -339,7 +339,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 27,
+    'id': 27,
     'parentId': 1,
     'parentName': '系统管理',
     'name': '参数管理',
@@ -352,7 +352,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 29,
+    'id': 29,
     'parentId': 1,
     'parentName': '系统管理',
     'name': '系统日志',
@@ -365,7 +365,7 @@ var dataList = [
     'list': null
   },
   {
-    'menuId': 30,
+    'id': 30,
     'parentId': 1,
     'parentName': '系统管理',
     'name': '文件上传',
@@ -380,7 +380,7 @@ var dataList = [
 ]
 var navDataList = [
   {
-    'menuId': 1,
+    'id': 1,
     'parentId': 0,
     'parentName': null,
     'name': '系统管理',
@@ -390,9 +390,9 @@ var navDataList = [
     'icon': 'system',
     'orderNum': 0,
     'open': null,
-    'list': [
+    'children': [
       {
-        'menuId': 2,
+        'id': 2,
         'parentId': 1,
         'parentName': null,
         'name': '管理员列表',
@@ -405,7 +405,7 @@ var navDataList = [
         'list': null
       },
       {
-        'menuId': 3,
+        'id': 3,
         'parentId': 1,
         'parentName': null,
         'name': '角色管理',
@@ -418,7 +418,7 @@ var navDataList = [
         'list': null
       },
       {
-        'menuId': 4,
+        'id': 4,
         'parentId': 1,
         'parentName': null,
         'name': '菜单管理',
@@ -431,7 +431,7 @@ var navDataList = [
         'list': null
       },
       {
-        'menuId': 5,
+        'id': 5,
         'parentId': 1,
         'parentName': null,
         'name': 'SQL监控',
@@ -444,7 +444,7 @@ var navDataList = [
         'list': null
       },
       {
-        'menuId': 6,
+        'id': 6,
         'parentId': 1,
         'parentName': null,
         'name': '定时任务',
@@ -457,7 +457,7 @@ var navDataList = [
         'list': null
       },
       {
-        'menuId': 27,
+        'id': 27,
         'parentId': 1,
         'parentName': null,
         'name': '参数管理',
@@ -470,7 +470,7 @@ var navDataList = [
         'list': null
       },
       {
-        'menuId': 30,
+        'id': 30,
         'parentId': 1,
         'parentName': null,
         'name': '文件上传',
@@ -483,7 +483,7 @@ var navDataList = [
         'list': null
       },
       {
-        'menuId': 29,
+        'id': 29,
         'parentId': 1,
         'parentName': null,
         'name': '系统日志',
